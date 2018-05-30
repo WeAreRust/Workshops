@@ -3,6 +3,3 @@ authors = ["Jordan West"]
 multilingual = false
 src = "src"
 title = "Workshops"
-
-[build]
-build-dir = "docs"
