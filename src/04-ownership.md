@@ -14,3 +14,4 @@ Using slices from the complete string created in the previous question, print ea
 ### Bonus
 Run each of the three functions in separate threads
 
+[rustbook-ch4]: https://doc.rust-lang.org/book/second-edition/ch04-00-understanding-ownership.html

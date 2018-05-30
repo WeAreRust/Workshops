@@ -132,7 +132,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="04-ownership.html#ownership---chapter-4rustbook-ch4" id="ownership---chapter-4rustbook-ch4"><h1>Ownership - [Chapter 4][rustbook-ch4]</h1></a>
+                        <a class="header" href="04-ownership.html#ownership---a-hrefhttpsdocrust-langorgbooksecond-editionch04-00-understanding-ownershiphtmlchapter-4a" id="ownership---a-hrefhttpsdocrust-langorgbooksecond-editionch04-00-understanding-ownershiphtmlchapter-4a"><h1>Ownership - <a href="https://doc.rust-lang.org/book/second-edition/ch04-00-understanding-ownership.html">Chapter 4</a></h1></a>
 <a class="header" href="04-ownership.html#exercises" id="exercises"><h2>Exercises</h2></a>
 <a class="header" href="04-ownership.html#ownership-and-borrowing" id="ownership-and-borrowing"><h3>Ownership and Borrowing</h3></a>
 <p>Create three functions - each of which accepts a string and appends “one”, “two”, and “three” to the string respectively. After running each of the functions, print the string - you should end up with “onetwothree”.</p>
@@ -175,6 +175,21 @@
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
