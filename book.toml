@@ -1,0 +1,5 @@
+[book]
+authors = ["Jordan West"]
+multilingual = false
+src = "src"
+title = "Workshops"
